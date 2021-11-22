@@ -5,3 +5,7 @@ run_example_1:
 
 down:
 	devspace purge
+
+delete:
+	devspace purge
+	minikube delete
